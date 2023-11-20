@@ -1,0 +1,41 @@
+<div class="container mt-5  pt-5 pb-5">
+  <a href="#login" class="btn btn-primary"> logout</a>
+  <p class="fs-5 text-center">balance Amount {{balance}}</p>
+  <p class="fs-5 text-center">Welcome {{name}}</p>
+
+  <button class="btn btn-danger" ng-click="frndBtn()">friends</button>
+
+  <div class="row">
+    <div class="col-6" ng-repeat="val in Emp">
+      <img src="./assets/images/img.png" alt="_Image" class="rounded-circle" />
+      {{val.username}}
+      <button ng-click="addBtn(val.id)" class="w-25 btn btn-primary">
+        add
+      </button>
+    </div>
+    <div class="col-6" ng-repeat="x in showFrnds">
+      <img
+        src="./assets/images/img.png"
+        alt="_Image"
+        class="rounded-circle"
+        ng-click="display(x)"
+      />
+      {{x.username}}
+      <!-- <button ng-click="addBtn(val.id)" class="w-25">add</button> -->
+    </div>
+  </div>
+
+  <form action="" class="d-flex flex-column align-items-center" name="myForm">
+    Name <input type="text" class="w-25" ng-model="Tname" name="Tname" /> 
+    Acc no<input type="number" class="w-25" ng-model="Taccno" name="Tacc" />
+    Amount<input type="number" class="w-25" ng-model="Amount" name="amt" />
+    <a
+      href="#!success"
+      class="btn btn-info w-25 mt-2"
+      ng-click="transfer()"
+      ng-disabled=" myForm.Tname.$dirty && myForm.Tname.$invalid ||  
+       myForm.Tacc.$pristine && myForm.Tacc.$invalid || 
+       myForm.amt.$pristine && myForm.amt.$invalid "
+      >transfer</a>
+  </form>
+</div>

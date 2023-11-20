@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color game</title>
+    <!-- <link rel="stylesheet" href="./css/cdn.jsdelivr.net_npm_bootstrap@5.0.2_dist_css_bootstrap.min.css"> -->
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .square {
+            background-color: blueviolet;
+            padding: 20px;
+            margin: 20px;
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        .row1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .row2 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .text {
+            text-transform: uppercase;
+            text-align: center;
+            color: white;
+        }
+
+        #head {
+            background:gray;
+            height: 30px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div class="container ">
+        <h1 class="text">the Greate <span id="display"> rgb </span>color game</h1>
+
+        <div id="head">
+            <button id="resetButton">NEW COLOR </button>
+            <span id=""></span>                                            
+            <span id="msgDisplay"></span>
+          <button id="Easy" class="easy">Easy</button>
+          <button id="Hard" class="easy">Hard</button>
+        </div>
+        <div class="row1">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        <div class="row2">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+
+</body>
+
+</html>

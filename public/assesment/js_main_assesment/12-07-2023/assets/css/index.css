@@ -1,0 +1,22 @@
+.input1{
+    width: 250px;
+}
+.inStyle{
+    border: 1px solid red;
+}
+.input2{
+    width: 250px;
+}
+ul{
+list-style: none;
+}
+.style{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+#block{
+    display: none;
+    min-width: 700px;
+}

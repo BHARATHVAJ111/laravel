@@ -1,0 +1,16 @@
+img{
+	width: 200px !important;
+	height: 200px !important;
+	object-fit: cover;
+}
+body{
+	font-family: cursive;
+}
+.input-style{
+ background-color: gray;
+ color: white;
+}
+.input-styles{
+	background-color:white;
+	color:black;
+   }

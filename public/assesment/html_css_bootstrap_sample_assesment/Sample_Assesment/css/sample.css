@@ -1,0 +1,60 @@
+img {
+
+    object-fit: cover;
+}
+
+.length {
+    min-height: 690px;
+}
+
+.sep {
+    gap: 40px;
+}
+
+th,
+td {
+    border-bottom: 2px dotted white;
+}
+
+.employement {
+    border-bottom: 1px dotted white !important;
+}
+
+.education {
+    border-bottom: 1px dotted white !important;
+}
+
+.table th {
+    width: 60%;
+}
+
+.page3 {
+    background-color: rgb(53, 199, 150);
+    min-height: 500px;
+}
+
+button {
+    float: right;
+    margin-right: 130px;
+    margin-top: 5px;
+}
+
+p span {
+    position: relative;
+    left: 30%;
+    color: black;
+    font-weight: bold;
+}
+a:hover{
+color: aqua!important;
+}
+
+@media screen and (max-width:1024px) and (min-width:320px) {
+    button {
+        float: left;
+    }
+
+}
+.family{
+    font-family: cursive;
+}

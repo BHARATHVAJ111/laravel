@@ -1,0 +1,16 @@
+*{
+	font-family: cursive;
+}
+ body{
+	background: linear-gradient(#ff0,#333 );
+	min-height: 100vh;
+}
+ul{
+	list-style: none;
+}
+table,tr,td,th{
+	border: 2px solid black !important;
+      width: 100%;
+	text-align: center;
+	gap: 200px !important;
+}

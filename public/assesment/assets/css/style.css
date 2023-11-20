@@ -1,0 +1,121 @@
+.signup {
+    min-height: 100vh;
+    font-family: cursive;
+    background-image: url("./images/pexels-photo-247819.jpeg");
+}
+
+.add_word {
+    min-height: 100vh;
+    font-family: cursive;
+    background-image: url("./images/learning-4264032_1280.webp");
+}
+
+.syn {
+    min-height: 100vh;
+    font-family: cursive;
+    background-image: url("./images/back-to-school-6305092_1280.jpg");
+}
+.comment {
+    min-height: 100vh;
+    font-family: cursive;
+    background-image: url("./images/binary-2380422_1280.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+.synant {
+    min-height: 100vh;
+    font-family: cursive;
+    background-image: url("./images/back-to-school-6305092_1280.jpg");
+}
+.error{
+    background-image: url("./images/404-error-page-not-found-lamp-graphic-vector-19645727.webp");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+
+.contain_search2 {
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: white;
+}
+.anger a{
+    text-decoration: none;
+    color: white;
+}
+
+ .a1:visited {
+   color: cyan;
+  }
+  
+  .a1:hover {
+   color: lightgreen;
+  }
+  
+  .a1 :active {
+   color: hotpink;
+  } 
+
+  .a2:visited {
+    color: cyan;
+   }
+   
+   .a2:hover {
+    color: lightgreen;
+   }
+   
+   .a2 :active {
+    color: hotpink;
+   } 
+   .a3:visited {
+    color: cyan;
+   }
+   
+   .a3:hover {
+    color: lightgreen;
+   }
+   
+   .a3 :active {
+    color: hotpink;
+   } 
+   .a4:visited {
+    color: cyan;
+   }
+   
+   .a4:hover {
+    color: lightgreen;
+   }
+   
+   .a4 :active {
+    color: hotpink;
+   } 
+
+ 
+   
+.admin {
+   min-height: 100vh;
+   font-family: cursive;
+   background-image: url("./images/binary-2380422_1280.webp");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+
+        .body {
+            background: linear-gradient(#7dd5ed, #83b0);
+            min-height: 100vh;
+            font-family: cursive;
+            background-image: url("./assets/images/pexels-photo-247819.jpeg");
+        }
+
+ 
+           
+             
+   
+   
+    

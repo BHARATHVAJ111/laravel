@@ -1,0 +1,45 @@
+* {
+    font-family: cursive;
+}
+
+.home {
+    position: sticky;
+    top: 0px;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.child {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #bfe94b;
+    min-height: 300px;
+}
+
+.border_1 {
+    border-bottom: 1px dotted black;
+}
+
+.icon_1 i {
+    font-size: 23px;
+    padding-top: 10px;
+    padding-right: 8px;
+}
+
+.image_1 {
+    border-color: brown;
+}
+.shadow_1{
+    box-shadow: 2px 5px 2px 5px whitesmoke;
+}
+/* .background{
+    background-color: rgb(223, 172, 128);
+} */
+@media screen and (max-width:1440px) and (min-width:200px) {
+    img {
+        object-fit: cover;
+    }
+
+}

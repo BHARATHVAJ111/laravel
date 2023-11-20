@@ -1,0 +1,29 @@
+body{
+    background-color: whitesmoke;
+    font-family: cursive;
+}
+#img {
+  width: 100px;
+  height: 100px;
+}
+
+.display-none {
+  display: none;
+}
+#insertVal {
+  justify-content: center;
+  gap: 20px;
+}
+.list-style {
+    padding: 10px;
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+.hide{
+    border: 1px solid black;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}

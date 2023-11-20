@@ -1,0 +1,82 @@
+<div class="container">
+    <div class="d-flex justify-content-between">
+        <button class="btn btn-success" ng-click="showBtn()">show</button>
+        <button class="btn btn-primary" ng-click="bevargeBtn()">Bevarage</button>
+    </div>
+    <h3>Welcome to book my show</h3>
+
+
+    <div class="container bg-light mt-3 pt-3 pb-3 shadow fs-5" ng-show="showTicket">
+        <div class="row text-center">
+            <div class="col">
+                <h3>movie</h3>
+                <hr>
+                <ul ng-repeat="x in array">
+                    <li ng-click="clickLi(x)">{{x.movie}}</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>time</h3>
+                <hr>
+                <ul ng-repeat="x in array">
+                    <li>{{x.time}}</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>ticket available</h3>
+                <hr>
+                <ul ng-repeat="x in array">
+                    <li>{{x.avilable}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3 bg-light shadow pt-3 pb-3 fs-5" ng-show="movieShow">
+        <p>select Number of tickets for {{movie}}</p>
+        <div class="row">
+            <div class="col">Price:{{price }}</div>
+
+            <div class="col">x</div>
+
+            <div class="col" ng-init="count=0"><input type="number" ng-model="count" ng-click="counter(value)"
+                    placeholder="how many tickets you want" required>
+                    
+
+                <span ng-show="span" class="fs-5 text-danger">{{error}}</span>
+            </div>
+
+            <div class="col">{{price * count}}</div>
+            <div class="text-center pt-4">
+                <h3>Ticket amount : {{price * count}} </h3>
+                <h3>Bevarages :{{val1}} </h3>
+                <h3>Total: {{price * count + val1}}</h3>
+                <button ng-disabled="count1" ng-click="payBtn()" class="btn btn-success" >pay</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="container bg-light shadow mt-3 pb-5 pt-5 fs-5" ng-show="bevargeShow">
+    <table>
+        <thead>
+            <tr class="fs-5">
+                <th>items</th>
+                <th>Rate</th>
+                <th>Quantity</th>
+                <th>total Amt</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="a in val">
+                <td>{{a.items}}</td>
+                <td>{{a.Rate}}</td>
+                <td><input type="number" ng-model="a.quantity" ng-click="inpClick()" class="w-75"></td>
+                <td>{{a.Rate * a.quantity}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Bevarage total :{{val1}}</h3>
+
+</div>
+</div>

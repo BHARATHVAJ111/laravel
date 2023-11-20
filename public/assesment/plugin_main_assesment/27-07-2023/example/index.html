@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="./assets/css/cdn.jsdelivr.net_npm_bootstrap@5.0.2_dist_css_bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container pt-4">
+      <h3 class="text-center ">product list</h3>
+      <div>
+        <input type="text" id="input" class="border rounded border-3" />
+        <button id="searchBtn" onclick="search()" class="border w-50 rounded">
+          search
+        </button>
+      </div>
+      <div class="row">
+        <div class="col pt-5" id="insertVal">
+
+          
+        </div>
+        <div class="row hide shadow">
+          <div class="col" id="cart"></div>
+        </div>
+      </div>
+      <div id="grid"></div>
+    </div>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/cdn.jsdelivr.net_npm_bootstrap@5.0.2_dist_js_bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./assets/js/pluginFile.js"></script>
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+  </body>
+</html>

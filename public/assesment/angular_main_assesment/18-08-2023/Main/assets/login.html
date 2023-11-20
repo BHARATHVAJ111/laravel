@@ -1,0 +1,55 @@
+
+    
+
+<div class="container">
+
+    <div class="d-flex justify-content-between">
+     <button class="btn btn-primary" ng-click="log()">login</button>
+     <button  class="btn btn-danger" ng-click="sign()"> signup</button>
+    </div>
+ 
+ 
+     <!--log in page  -->
+ 
+ 
+ <div class="container-fluied" ng-show="loginpage" >
+ 
+     <form action="" name="myForm" class="d-flex flex-column justify-content-center align-items-center gap-3 bg-light shadow pb-5 pt-5 mt-3">
+     <h3>LOGIN</h3>
+ <input type="text" name="name"  class="text-center p-2 rounded " placeholder="username" ng-model="loguser" required>
+ <input type="password"  name="password" class="text-center p-2 rounded"  placeholder="password" ng-model="logpwd" required>
+ 
+ <span class="text-warning text-uppercase fs-5">{{error}}</span>
+ 
+ <button class=" btn btn-info" ng-click="loginBtn()" 
+ ng-disabled=" myForm.name.$untouched && myForm.name.$invalid ||  
+ myForm.password.$pristine && myForm.password.$invalid">login</button>
+ </form>
+ 
+ <!-- <p class="fs-5">you dont have any account ? <a href="#!signup" style="text-decoration: none;" class="btn btn-warning">signup</a></p> -->
+ 
+ </div>
+ 
+ 
+ <div class="bg-light shadow pb-5 pt-5 container mt-3" ng-show="signuppage">
+     <h3 class="text-center text-uppercase" >create your account</h3>
+ 
+     <form action="" name="myForm"  class="d-flex flex-column justify-content-center align-items-center pt-3 gap-3">
+      <input type="email" placeholder="Email" ng-model="email" name="email" required class="p-2 rounded">
+ 
+      <input type="text" placeholder="username" ng-model="userName" name="userName" required class="p-2 rounded">
+ 
+      <input type="password" placeholder="password" ng-model="pwd" name="pwd" required class="p-2 rounded">
+ 
+ 
+      <button class="btn btn-warning " ng-click="signupBtn()" 
+      ng-disabled=" myForm.email.$pristine && myForm.email.$invalid ||  
+      myForm.userName.$pristine && myForm.userName.$invalid || 
+      myForm.pwd.$pristine && myForm.pwd.$invalid ">signup</button>
+ 
+ 
+       <!-- <a href="#login" style="text-decoration: none;" class="btn btn-info">login</a> -->
+     </form>
+ </div>
+ 
+ </div>

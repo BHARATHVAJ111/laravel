@@ -1,0 +1,19 @@
+<div class="container  pb-5 pt-5">
+    <h3 class="text-center text-uppercase" >create your account</h3>
+
+    <form action="" name="myForm"  class="d-flex flex-column justify-content-center align-items-center pt-3 gap-3">
+     <input type="text" placeholder="username" ng-model="userName" name="name" required class="p-2 rounded">
+     <input type="number" placeholder="Account number" ng-model="actNo" name="actNo" required class="p-2 rounded">
+     <input type="number" placeholder="Amount" ng-model="amt" name="amt" required class="p-2 rounded">
+     <input type="text" name="" id="" placeholder="upi" ng-model="qq" disabled class="p-2 rounded">
+
+
+     <button class="btn btn-warning " ng-click="create()" 
+     ng-disabled=" myForm.name.$pristine && myForm.name.$invalid ||  
+     myForm.actNo.$pristine && myForm.actNo.$invalid || 
+     myForm.amt.$pristine && myForm.amt.$invalid ">create account</button>
+
+
+      <a href="#login" style="text-decoration: none;" class="btn btn-info">login</a>
+    </form>
+</div>

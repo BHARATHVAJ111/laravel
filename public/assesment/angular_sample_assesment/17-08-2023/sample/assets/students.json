@@ -1,0 +1,64 @@
+{
+	"students": [
+		{
+			"name": "John",
+			"id": "001",
+			"m1": 75,
+			"m2": 65,
+			"m3": 65,
+			"m4": 25,
+			"m5": 55,
+			"img":"./assets/images/img-1.jfif"
+		},
+		{
+			"name": "Praveen",
+			"id": "002",
+			"m1": 75,
+			"m2": 15,
+			"m3": 55,
+			"m4": 75,
+			"m5": 55,
+			"img":"./assets/images/img-1.jfif"
+		},
+		{
+			"name": "Somesh",
+			"id": "003",
+			"m1": 75,
+			"m2": 65,
+			"m3": 55,
+			"m4": 25,
+			"m5": 77,
+			"img":"./assets/images/img-1.jfif"
+		},
+		{
+			"name": "Mebin",
+			"id": "004",
+			"m1": 75,
+			"m2": 65,
+			"m3": 10,
+			"m4": 56,
+			"m5": 55,
+			"img":"./assets/images/img-1.jfif"
+		},
+		{
+			"name": "Jose",
+			"id": "005",
+			"m1": 75,
+			"m2": 65,
+			"m3": 27,
+			"m4": 55,
+			"m5": 89,
+			"img":"./assets/images/img-1.jfif"
+		},
+		{
+			"name": "itachi",
+			"id": "006",
+			"m1": 75,
+			"m2": 65,
+			"m3": 17,
+			"m4": 55,
+			"m5": 89,
+			"img":"./assets/images/img-1.jfif"
+		}
+	]
+}
